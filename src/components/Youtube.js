@@ -106,7 +106,7 @@ const Youtube = () => {
                   justifyContent="space-around"
                   alignItems="center"
                 >
-                  <Grid item xs={4}>
+                  <Grid item xs={12} md={4}>
                     <Stack spacing={1}>
                       <Field
                         name="name"
@@ -178,7 +178,7 @@ const Youtube = () => {
                       />
                     </Stack>
                   </Grid>
-                  <Grid item xs={4}>
+                  <Grid item xs={12} md={4}>
                     <SimpleBar style={{ maxHeight: 400 }}>
                       <Stack spacing={2} sx={{ mt: 3 }}>
                         <Field
